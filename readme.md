@@ -13,13 +13,15 @@ Light/Lamp State Explanations
 ## Plugin Usage
 The Data Source requested is also seen in another chapter, we assume here the data source is correctly installed and is name is HUE_LIGHTS.
 Here are some explanations on each field of the widget:
-TITLE: field shall not be filled, in this case the HUE_LIGHT Widget will get the information from the Hue Bridge and assigned the name configured for the Light. 
-LIGHT ID: This filed is required, it shall be greater or equal than 1. It represents the Id number of the Light return by the data source.
-HUE LIGHT DATA: that field shall be datasource[“HUE_LIGHTS”]
+- TITLE: field shall not be filled, in this case the HUE_LIGHT Widget will get the information from the Hue Bridge and assigned the name configured for the Light. 
+- LIGHT ID: This filed is required, it shall be greater or equal than 1. It represents the Id number of the Light return by the data source.
+- HUE LIGHT DATA: that field shall be datasource[“HUE_LIGHTS”]
+
 ![Screenshot] (HueLights/Screenshoot_HueLight_FreeBoard_Widget_3.png "HueLight Plugin")
 
 ## DataSource Usage
 The datasource requested by the widget is a JSON datasource. The JSON data expected are described in the chapter JSON PHP data. Let’s assume at this stage that the JSON data come from a php file named hue.php that you have installed in your home local server.
+
 ![Screenshot] (HueLights/Screenshoot_HueLight_FreeBoard_Widget_4.png "HueLight DataSource")
 
 
