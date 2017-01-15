@@ -6,7 +6,8 @@ This is a widget plugin for [Freeboard](http://freeboard.io) (open source web ui
 ![Screenshot] (HueLights/Screenshoot_HueLight_FreeBoard_Widget_1.png "HueLight Widget")
 
 ### Basic Explanations
-Light/Lamp State Explanations
+Light/Lamp State Explanations, more details have been provided in ODT document in the repository.
+
 ![Screenshot] (HueLights/Screenshoot_HueLight_FreeBoard_Widget_2.png)
 
 ### Utilization
@@ -28,6 +29,8 @@ The datasource requested by the widget is a JSON datasource. The JSON data expec
 ### Installation
 
 ## Installation of the JSON PHP HUE file
+In order to access thyour Hue Bridge, you have to create your own developper account on HUE (http://www.developers.meethue.com/documentation/getting-started), knowing your Bridge IP, and create an application key on your Bridge.
+
 Look inside the hue.php file, there is a configuration to perform:  set your IP Hue Bridge API and set your API Key.
 This php script provide whole information of the Lights from the Hue Bridge controller.
 
@@ -62,3 +65,5 @@ Copy the file lights_hue..js in the plugins/freeboard/ folder.
 
 
 Enjoy !
+
+next will be able to operate the light from the plugin... Need time for that, if someone is interesting to code this features then drop me an mp.
